@@ -56,6 +56,8 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'backend.urls'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "http://najel-roulettech.s3-website.us-east-2.amazonaws.com/",
+    "https://najel-roulettech.s3-website.us-east-2.amazonaws.com/"
 ]
 CORS_ALLOW_ALL_ORIGINS = True
 
