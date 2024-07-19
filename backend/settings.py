@@ -23,9 +23,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-num!$o8tmyr_xsy!_!ud2f*44=$1tmd@t_rx4e+bxc-x5s7=r2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '18.118.55.190',
+    'najel-roulettech.s3-website.us-east-2.amazonaws.com',
+]
 
 
 # Application definition
@@ -77,7 +80,7 @@ CORS_ALLOW_METHODS = [
     'OPTIONS',
 ]
 
-CORS_ALLOW_ALL_ORIGINS = False
+CORS_ALLOW_ALL_ORIGINS = True
 
 TEMPLATES = [
     {
